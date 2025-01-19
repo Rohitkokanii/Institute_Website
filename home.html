@@ -1,0 +1,166 @@
+<html>
+
+<head>
+    <title>Login Page</title>
+    <style>
+        body {
+            background-color: #fff;
+            height: 749px;
+
+
+        }
+
+
+        h2 {
+            margin-top: 5px;
+        }
+
+        #nav {
+            height: 84px;
+            width: 1360px;
+            display: flex;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            background-color: #d7d7d7;
+            margin: -7px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        #left-nav {
+            margin: 0px;
+            height: 84px;
+            /* background-color: #ff0000; */
+            align-content: center;
+            display: flex;
+            text-align: center;
+            width: 548px;
+
+        }
+
+        #right-nav {
+            margin-right: 0px;
+            height: 84px;
+            /* background-color: #ff0000; */
+
+            padding-left: 233px;
+            width: 363px;
+        }
+
+
+        #menu {
+            width: 528px;
+            margin-left: -62px;
+        }
+
+        ul li {
+            display: inline;
+            margin-left: 30px;
+            line-height: 50px;
+            font-size: 23px;
+            /* font-style:bold; */
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: black;
+            /* background-color:rgb(156, 156, 156); */
+            padding: 5px;
+        }
+
+        ul li a:hover {
+            color: rgb(89, 89, 89);
+            font-size: 23.2px;
+
+        }
+
+        #logo {
+            padding-left: 5px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        footer {
+            color: white;
+            background-color: #383737;
+            Height: 68px;
+            margin-top: 0px;
+            width: 1350px;
+            padding-top: 40px;
+
+        }
+
+        footer div {
+            text-align: center;
+        }
+
+        div span img {
+            height: 51px;
+            align-content: center;
+            margin: 8px;
+            margin-top: 11px;
+            margin-left: 62px;
+        }
+
+        #Content {
+            /* text-align: center; */
+            padding-top: 100px;
+            height: 562px;
+            display:flex;
+        }
+        #left-Section{
+            height:500px;
+            width:600px;
+            background-color: red;
+        }
+        #right-Section{
+            height:500px;
+            width:600px;
+            margin-left:140px;
+            background-color: rgb(0, 204, 255);
+        }
+
+
+        #home {
+            color: hwb(218 17% 2%);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav">
+        <div id="left-nav">
+            <span><img src="developer.png" alt="Logo"></span>
+            <span>
+                <h1 id="logo">Passion Software Solution</h1>
+            </span>
+        </div>
+        <div id="right-nav">
+            <ul id="menu">
+                <li><a id="home" href="home.html">Home</a></li>
+                <li><a href="SignUp.html">SignUp</a></li>
+                <li><a href="Login_page.html">Login</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Help.html">Help</a></li>
+            </ul>
+        </div>
+    </div>
+  <main id="Content">
+    <Section id="left-Section">
+        Left Side
+    </Section>
+    <Section id="right-Section">
+        Right Side
+    </Section>
+  </main>
+    <footer>
+        <div>
+            Made By Rohit &hearts;
+            <br>
+            &copy; 2025 All Rights reserved
+        </div>
+    </footer>
+</body>
+
+</html>
