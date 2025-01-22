@@ -1,0 +1,247 @@
+body {
+    background-color: #fff;
+    height: 749px;
+}
+h2 {
+    margin-top: 5px;
+}
+#nav {
+    height: 84px;
+    width: 1360px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #d7d7d7;
+    margin: -7px;
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#left-nav {
+    margin: 0px;
+    height: 84px;
+    /* background-color: #ff0000; */
+    align-content: center;
+    display: flex;
+    text-align: center;
+    width: 548px;
+
+}
+
+#right-nav {
+    margin-right: 0px;
+    height: 84px;
+    /* background-color: #ff0000; */
+
+    padding-left: 233px;
+    width: 363px;
+}
+
+#menu {
+    width: 528px;
+    margin-left: -62px;
+}
+ul li {
+    display: inline;
+    margin-left: 30px;
+    line-height: 50px;
+    font-size: 23px;
+    /* font-style:bold; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    /* background-color:rgb(156, 156, 156); */
+    padding: 5px;
+}
+
+ul li a:hover {
+    color: rgb(89, 89, 89);
+    font-size: 23.2px;
+
+}
+
+#logo {
+    padding-left: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#login {
+    background-color: white;
+    height: 253px;
+    width: 320px;
+    margin-top: 133px;
+    border-radius: 30px;
+    opacity: 0.9;
+    padding-top: 60px;
+    padding-bottom:20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+#login-window{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:28px;
+    margin-top: -10px;
+}
+#login-menu{
+    color: hwb(218 17% 2%);
+}
+#login-img {
+    margin-top: -153px;
+    height: 134px;
+    border-radius: 50%;
+}
+input {
+    border: 1px solid rgb(203, 203, 203);
+    height: 33px;
+    width: 272px;
+    border-radius: 3px;
+}
+
+#btn {
+    border: 1px solid rgb(203, 203, 203);
+    height: 33px;
+    width: 272px;
+    border-radius: 3px;
+    background-color: hwb(218 23% 2%);
+    color:white;
+}
+
+#btn:hover {
+    background-color: rgb(0, 110, 254);
+    cursor: pointer;
+}
+
+#social {
+    margin-top: 20px;
+    height: 43px;
+    cursor: pointer;
+}
+
+
+footer {
+    color: white;
+    background-color: #383737;
+    Height: 68px;
+    margin-top: 117px;
+    width: 1350px;
+    padding-top: 40px;
+   
+}
+
+footer div {
+    text-align: center;
+}
+
+div span img {
+    height: 51px;
+    align-content: center;
+    margin: 8px;
+    margin-top: 11px;
+    margin-left: 62px;
+}
+#Content{
+text-align:center;
+padding-top:100px;
+height: 562px;
+
+}
+#Content-index{
+    text-align:center;
+padding-top:100px;
+height: 562px;
+display:flex;
+}
+#about {
+color: hwb(218 17% 2%);
+}
+#help{
+    color: hwb(218 17% 2%);
+   }
+#home {
+    color: hwb(218 17% 2%);
+}
+
+
+#signup {
+    color: hwb(218 17% 2%);
+}
+#left-Section{
+    height:500px;
+    width:600px;
+    background-color: red;
+}
+#right-Section{
+    height:500px;
+    width:600px;
+    margin-left:140px;
+    background-color: rgb(0, 204, 255);
+}
+.signup-window {
+    background-color: white;
+    height: 410px;
+    width: 320px;
+    border-radius: 30px;
+    opacity: 0.9;
+    padding-top: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+form div input {
+    border: 1px solid rgb(203, 203, 203);
+    height: 33px;
+    width: 272px;
+    border-radius: 3px;
+}
+
+button {
+    border: 1px solid rgb(203, 203, 203);
+    height: 33px;
+    width: 272px;
+    border-radius: 3px;
+    background-color: white;
+}
+button:hover{
+    cursor: pointer;
+}
+
+#left-line {
+    width: 117px;
+    background-color: #b6b6b6;
+    height: 1.2px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#right-line {
+    width: 117px;
+    background-color: #b6b6b6;
+    height: 1.2px;
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+.line {
+    width: 320px;
+    display: flex;
+    color:gray;
+}
+#btn-signup{
+    background-color: hwb(218 17% 2%);
+    color:white;
+    
+}
+#btn-signup:hover{
+    background-color: hwb(218 27% 0%);
+    color:white;
+    
+}
+#google-logo{
+    height:14px;
+    margin-right:6px;
+   
+}
+div form h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
