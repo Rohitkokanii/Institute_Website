@@ -2,156 +2,7 @@
 
 <head>
     <title>Login Page</title>
-    <style>
-        body {
-            background-color: #fff;
-            height: 749px;
-
-
-        }
-
-        #login {
-            background-color: white;
-            height: 253px;
-            width: 320px;
-            margin-top: 133px;
-            border-radius: 30px;
-            opacity: 0.9;
-            padding-top: 60px;
-            padding-bottom:20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-        }
-
-        h2 {
-            margin-top: 5px;
-        }
-
-        #login-img {
-            margin-top: -153px;
-            height: 134px;
-            border-radius: 50%;
-        }
-
-        input {
-            border: 1px solid rgb(203, 203, 203);
-            height: 33px;
-            width: 272px;
-            border-radius: 3px;
-        }
-
-        #btn {
-            border: 1px solid rgb(203, 203, 203);
-            height: 33px;
-            width: 272px;
-            border-radius: 3px;
-            background-color: hwb(218 23% 2%);
-            color:white;
-        }
-
-        #btn:hover {
-            background-color: rgb(0, 110, 254);
-            cursor: pointer;
-        }
-
-        #social {
-            margin-top: 20px;
-            height: 43px;
-        }
-
-        #social {
-            cursor: pointer;
-        }
-
-        #nav {
-            height: 84px;
-            width: 1360px;
-            display: flex;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-            background-color: #d7d7d7;
-            margin: -7px;
-            position:sticky;
-            top: 0;
-            z-index: 1000;
-        }
-
-        #left-nav {
-            margin: 0px;
-            height: 84px;
-            align-content: center;
-            display: flex;
-            text-align: center;
-            width: 548px;
-
-        }
-
-        #right-nav {
-            margin-right: 0px;
-            height: 84px;
-            padding-left: 233px;
-            width: 363px;
-        }
-
-
-        #menu {
-            width: 528px;
-            margin-left: -62px;
-        }
-
-        ul li {
-            display: inline;
-            margin-left: 30px;
-            line-height: 50px;
-            font-size: 23px;
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-        }
-
-        ul li a {
-            text-decoration: none;
-            color: black;
-            padding: 5px;
-        }
-
-        ul li a:hover {
-            color: rgb(89, 89, 89);
-            font-size: 23.2px;
-
-        }
-
-        #logo {
-            padding-left: 5px;
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        footer {
-            color: white;
-            background-color: #383737;
-            Height: 68px;
-            margin-top: 117px;
-            width: 1350px;
-            padding-top: 40px;
-        }
-
-        footer div {
-            text-align: center;
-        }
-
-        div span img {
-            height: 51px;
-            align-content: center;
-            margin: 8px;
-            margin-top: 11px;
-            margin-left: 62px;
-        }
-        #login-window{
-            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            font-size:28px;
-            margin-top: -10px;
-        }
-        #login-menu{
-            color: hwb(218 17% 2%);
-        }
-    </style>
+    <link rel="stylesheet" href="Style.css">
 </head>
 
 <body>
@@ -168,7 +19,7 @@
                 <li><a href="SignUp.html">SignUp</a></li>
                 <li><a id="login-menu" href="Login_page.html">Login</a></li>
                 <li><a href="About.html">About</a></li>
-                <li><a href="help.html">Help</a></li>
+                <li><a href="Help.html">Help</a></li>
             </ul>
         </div>
 
@@ -183,7 +34,7 @@
                 <input type="password" placeholder="        Enter Password" required>
                 <br><br>
                 <input id="btn" type="submit" value="Submit">
-                
+
                 <img id="social" src="social.png">
 
             </form>
