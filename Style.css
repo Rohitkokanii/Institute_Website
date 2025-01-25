@@ -56,6 +56,7 @@ ul li a {
 ul li a:hover {
     color: rgb(89, 89, 89);
     font-size: 23.2px;
+    transition:0.2s;
 
 }
 
@@ -73,6 +74,10 @@ ul li a:hover {
     padding-top: 60px;
     padding-bottom:20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+#login:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    transition:0.2s;
 }
 #login-window{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -180,7 +185,14 @@ color: hwb(218 17% 2%);
     border-radius: 30px;
     opacity: 0.9;
     padding-top: 1px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    /* transition:box-shadow 1s; */
+    
+}
+.signup-window:hover{
+    box-shadow:0 0 20px rgba(47, 47, 47, 0.7);
+    /* transform:scale(1.001); */
+    transition: 0.2s ease-in-out;
 }
 
 form div input {
