@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Login Page</title>
+    <title>Home</title>
     <link rel="stylesheet" href="Style.css">
 </head>
 
@@ -24,12 +24,20 @@
         </div>
     </div>
     <main id="Content-index">
-        <Section id="left-Section">
-            Left Side
-        </Section>
-        <Section id="right-Section">
-            Right Side
-        </Section>
+        <section class="firstSection">
+            <div class="leftSection" style="width:545px">
+                Welcome To 
+                <br>
+                <span class="purple">Passion Software Solution</span>
+                <br>
+                <span id="element"></span>
+               
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+
     </main>
     <footer>
         <div>
@@ -38,6 +46,13 @@
             &copy; 2025 All Rights reserved
         </div>
     </footer>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Java Developer', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
 </body>
 
 </html>
