@@ -119,6 +119,36 @@ input {
     cursor: pointer;
 }
 
+/*Main part*/
+
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+/*    margin: 90px 0;*/
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 3rem;
+
+}
+
+.rightSection img {
+    width: 100%;
+}
+
+.purple {
+    color: #FF6347 ;
+}
+
+#element {
+    color: #1E90FF;
+}
 
 footer {
     color: white;
@@ -150,8 +180,8 @@ height: 562px;
 #Content-index{
     text-align:center;
 padding-top:100px;
-height: 562px;
-display:flex;
+height: 80%;
+/*display:flex;*/
 }
 #about {
 color: hwb(218 17% 2%);
@@ -199,7 +229,7 @@ form div input {
     border: 1px solid rgb(203, 203, 203);
     height: 33px;
     width: 272px;
-    border-radius: 3px;
+    bordef-radius: 3px;
 }
 
 button {
